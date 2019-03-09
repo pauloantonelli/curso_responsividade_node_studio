@@ -1,2 +1,1 @@
-# curso_responsividade_node_studio
-# curso_responsividade_node_studio
+# curso de responsividade da node studio

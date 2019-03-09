@@ -1,0 +1,36 @@
+@charset "utf8";
+/*BANNER HERO*/
+.hero{
+    background-image: url(../img/hero.jpg);
+    background-size: cover;
+    min-height: 100vh;/*viewport height é uma unidade de tamanho relativa a viewport, que nesse caso é de 100%*/
+    color: #fff;
+    display: flex;
+    justify-content: center;/*centraliza o conteiner verticalmente*/
+    align-items: center;/*centraliza os itens do conteiner horizontalmente*/
+    flex-direction: column;
+    text-align: center;
+}
+.hero h1{
+    font-size: 3.2rem;
+    margin-bottom: 15px;
+}
+.hero h2{
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+.hero .btn{
+    background-color: #fff;
+    border-radius: 4px;
+    color: #191c03;
+    padding: 20px 50px;
+    text-transform: uppercase;/*deixa o texto em caixa alta*/
+}
+@media (max-width: 700px){
+    .hero h1{
+        font-size: 2.5rem;
+    }
+    .hero h3{
+        font-size: 1.5rem;
+    }
+}

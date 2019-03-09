@@ -1,0 +1,9 @@
+@charset "utf8";
+/*Resetando propriedades do body*/
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    box-sizing: border-box;/*para evitar problemas com o padding*/
+    font-family: 'Roboto', sans-serif;
+}
